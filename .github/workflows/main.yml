@@ -30,6 +30,8 @@ jobs:
 
       - name: GitHub Pages einrichten
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Dateien vorbereiten
         uses: actions/upload-pages-artifact@v3
